@@ -2,71 +2,27 @@
 	margin: 0;
 	padding: 0;
 }
-img {
-    max-width: 10%;
-    max-height: 10%;
-}
-.flexbox1 {
+    .flexbox1 {
     display: flex;
     margin: auto;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
     background: black;
-    max-width: 1000px;
-}   
-.black {
+    max-width: 800px;
+    }   
+    .black {
     background-color: black;
-}
-
-.header {
-    flex: 5;
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    text-align: center;
-    line-height: 50px;
-    color: white;
-}   
-
-.webs {
-    flex: 1;
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    justify-content: auto;
-    text-align: right;
-    line-height: 50px;
-    color: white;
-}
-
-h1 {
-    font-size: 21px;
-}
-
-.white {
+    }
+    .flexbox2 {
     display: flex;
     margin: auto;
-    justify-content: left;
+    justify-content: space-between;
     flex-direction: row;
-    align-items:baseline;
-    background: white;
-    max-width: 1000px;
-}
-
-c {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-e {
-    font-size: 20px;
-}
-
-hr {
-    border-bottom:black;
-}
+    align-items: center;
+    background: #C70039;
+    max-width: 800px;
+    }
     .red {
     background-color: #C70039;
     }
@@ -106,6 +62,26 @@ hr {
     }
     body {
     font-family: 'Oswald', sans-serif;
+    }
+    .header {
+    flex: 2.5;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    }   
+    .webs {
+    flex: 1;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    text-align: left;
+    line-height: 50px;
+    color: white;
     }
     .fotoflex {
     flex: 2.5;
@@ -199,4 +175,14 @@ hr {
     }
     .scale:hover {
     transform: scale(1.2);
+    }   
+    h1 {
+        font-size: 21px;
+    }
+    img {
+        max-width: 10%;
+        max-height: 10%;
+    }
+    .bomb {
+        font-weight: bold;
     }
