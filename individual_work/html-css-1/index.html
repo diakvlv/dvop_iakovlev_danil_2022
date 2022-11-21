@@ -1,12 +1,286 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <meta name='description' content=''>
+  <meta name='keywords' content=''>
+  <meta name='author' content=''>
+  <meta name='robots' content='all'>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <title>Iakovlev Danil | Portfolio</title>
+  <!--[if IE]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style>
+    * {
+	margin: 0;
+	padding: 0;
+}
+    .flexbox1 {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+    max-width: 800px;
+    }   
+    .black {
+    background-color: black;
+    }
+    .flexbox2 {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background: #C70039;
+    max-width: 800px;
+    }
+    .red {
+    background-color: #C70039;
+    }
+    .flexbox3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    .flexbox4 {
+    display: flex;
+    max-width: 800px;
+    color: #C70039;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    }
+    .flexbox5 {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: left;
+    }
+    .blue {
+    background-color: DarkBlue;
+    }
+    .flexbox6 {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;   
+    color: white;
+    }
+    body {
+    font-family: 'Oswald', sans-serif;
+    }
+    .header {
+    flex: 2.5;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    }   
+    .webs {
+    flex: 1;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    text-align: left;
+    line-height: 50px;
+    color: white;
+    }
+    .fotoflex {
+    flex: 2.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: right;
+    color: white;
+    }
+    .text1 {
+    flex: 2.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: auto;
+    text-align: left;
+    color: white;
+    }
+    .text31 {
+    flex: 1;
+    display: flex;
+    }
+    .text32 {
+    flex: 5;
+    display: flex;
+    }
+    b {
+    font-size: 25px;
+    }
+    .c {
+    font-size: 20px;
+    font-weight: bold;
+    }
+    p {
+    font-size: 10px;
+    }
+    .item1 {
+    flex: 1;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 5px;
+    }
+    .item2 {
+    flex: 1;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 5px;
+    }
+    .item3 {
+    flex: 1;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 5px;
+    }
+    .text6 {
+    flex: 4.5;
+    display: flex;
+    flex-direction: column;
+    text-align: justify; 
+    }
+    .flexfoto2 {
+    flex: 3;
+    display: flex;
+    }
+    .button {
+    background-color: #C70039; 
+    color: white; 
+    border: 0cm;
+    width: 25%;
+    height: 30px;
+    }
+
+    .button:hover {
+    background-color: white;
+    color: #C70039;
+    border: 0cm;
+    width: 25%;
+    height: 30px;
+    }
+    a {
+    color: white;
+    text-decoration: none;
+    }
+    .scale {
+    transition: 0.5s;
+    }
+    .scale:hover {
+    transform: scale(1.2);
+    }   
+    h1 {
+        font-size: 21px;
+    }
+    img {
+        max-width: 10%;
+        max-height: 10%;
+    }
+    .bomb {
+        font-weight: bold;
+    }
+  </style>
+ </head>
+ <body>
+     <div class="black">
+     <div class="flexbox1">
+      <div class="header">
+        <img src="logo.jpg">
+      </div>
+      <div class="webs">
+        <a class="scale">About</a>&nbsp;&nbsp;&nbsp;
+        <a class="scale">Services</a>&nbsp;&nbsp;&nbsp;
+        <a class="bomb">Porfolio</a>
+      </div>
+     </div>
+    </div>
+
+    <div class="red">
+        <br><br>
+      <div class="flexbox2">
+           <div class="text1">
+               <b id="1">One step forward.<br>At a time.</b>
+               Maecenas aliquet accumsan leo. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Curabitur bibendum justo non orci.
+               <br><br>
+               <div class="flexbox3">
+                   <div class="textflex31">
+                     <c>Who we are</c>
+                     <p>Morbi leo mi, nonummy eget tristique non, rhoncus<br> non leo. Maecenas ipsum velit, consectetuer eu lobortis<br> ut, dictum at dui.</p>
+                    </div>
+                    <div class="textflex32">
+                     <c>Contact</c>
+                     <p>podpora@smartcity.cz<br>+420 777 666 555</p>   
+                    </div>
+               </div>
+            </div>
+           <div class="fotoflex">
+              <img src="photo.png" width=106% height=106%>
+           </div>
+           </div>
+           <br><br>
+        </div>
+    </div>
+    <br><br>
+    <div class="flexbox4">
+    <h1 id="2">Let's build smarter and more<br> sustainable places to live</h1>
+    </div>
+    <div class="flexbox5">
+        <div class="item1">
+         <img src="map.png" width=40% height=40%>
+         Global connectivness
+         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam erat volutpat. Donec iaculis gravida nulla. Vivamus porttitor turpis ac leo. Aliquam erat volutpat.</p>
+        </div>
+        <div class="item2">
+         <img src="diagram.png" width=40% height=40%>
+         Low energy consuption
+         <p>Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Suspendisse sagittis ultrices augue.</p>
+        </div>
+        <div class="item3">
+         <img src="stats.png" width=40% height=40%>
+         Data driven decisions
+         <p>Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Curabitur sagittis hendrerit ante. Vivamus ac leo pretium faucibus. Etiam dictum tincidunt diam.</p>
+        </div>
+     </div>
+     </div>
+     <br><br>
+
+     <div class="blue">
+         <br><br>
+         <div class="flexbox6">
+             <div class="text6">
+                 <h1 id="3">How fast emerging cities<br>shapes modern world</h1>
+                 Pellentesque sapien. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Nullam at arcu a est sollicitudin euismod. Pellentesque ipsum. Cras elementum. Pellentesque ipsum. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Nullam rhoncus aliquam metus. Aenean id metus id velit ullamcorper pulvinar.
+                <br><br>
+                 <button class="button">SEE CASE STUDY</button>
+                </div>
+             <div class="flexfoto2">
+                 <img src="tech.png" width=100% height=100%>
+             </div>
+         </div>
+         <br><br><br>
+     </div>
+ </body>
 </html>
