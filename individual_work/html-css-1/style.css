@@ -27,7 +27,7 @@
     font-family: 'Oswald', sans-serif;
     }
     .header {
-    flex: 2.5;
+    flex: 15;
     font-size: 18px;
     display: flex;
     flex-direction: row;
@@ -56,12 +56,12 @@
     .scale:hover {
     transform: scale(1.2);
     }   
-    h1 {
+    h1, h2 {
         font-size: 21px;
     }
     img {
-        max-width: 10%;
-        max-height: 10%;
+        max-width: 396.1px;
+        max-height: 250px;
     }
     .bomb {
         font-weight: bold;
@@ -70,9 +70,28 @@
     .work {
         flex: 1;
     }
+    .lefttext {
+        flex: 1;
+        text-align: justify;
+        max-width: 396.1px;
+    }
+    .righttext {
+        flex: 1;
+        text-align: justify;
+        max-width: 390px;
+    }
     hr {
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
-        border-bottom: black;
+        border-bottom: gray;
+    }
+
+    b {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .logo {
+        font-family: 'Encode Sans';
     }
